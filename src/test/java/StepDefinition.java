@@ -13,6 +13,8 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 
         public void goToFacebook() {
             driver = new FirefoxDriver();
+
+
             driver.navigate().to("https://www.facebook.com/");
         }
 
